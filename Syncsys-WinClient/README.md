@@ -58,9 +58,21 @@ The software provides an uninstaller. If you have installed the software properl
 
 Run the uninstaller with administrative permission, the files and service will be removed.
 
-### Development testing
+### Create the development environment locally
 
+Clone the repository:
 
+```bash
+git clone https://github.com/Tommy-Zhang3759/Sysync-WinClient.git
+```
+
+Switch to the folder:
+
+```bash
+cd Sysync-WinClient 
+```
+
+Because no third part library is used in this repository, so you do not need to install any dependence. Now the development environment has been set, for more information about developing, please see *DevDoc*.
 
 ## How it works
 
