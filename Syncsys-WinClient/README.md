@@ -18,6 +18,22 @@ The software works by responding to API requests that the server sent. For the w
 
 This project is developed by two senior high school students, with the great help and support from their computer science teacher. For more information, please see *Authors, License, Acknowledgements*.
 
+## Overview
+
+### Basic functions
+
+- Find and connect to the server according to the local settings.
+
+- Batch modify the Windows registry
+- Batch modify Windows network configuration
+- Listening to the broadcast and automatically get static IP and host names when the server address that is saved locally is unavailable.
+- Separate files/folders (NFS/SMB)
+
+### Advanced features
+
+- Remote control (VNC)
+- Screen monitoring
+
 ## How to use
 
 ### Installation
@@ -37,4 +53,22 @@ The screen shot of the service manager, showing that the service has been starte
 ### Uninstallation
 
 ***Before install the software again, uninstalling is always necessary***
+
+The software provides an uninstaller. If you have installed the software properly, you can find the uninstaller in `C:\SysyncWin`.
+
+Run the uninstaller with administrative permission, the files and service will be removed.
+
+## How it works
+
+When installing the software, the installer will regist the software to be a Windows Service, so it will keep running in the background and has a very high permission, thus enable it to modify the system settings.
+
+While running, the software listens to messages from the server, and respond to it. We want to keep the client simple, smart. Therefor, we do not provide any user interface, so there is nothing you could do with the software on Windows. All the configurations will be done or change by the commands from the server.
+
+This is just an introduction, *DevDoc* provides more technological information.
+
+## TODO
+
+## API List
+
+## Authors, License, Acknowledgements
 
