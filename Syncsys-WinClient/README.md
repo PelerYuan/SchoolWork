@@ -6,19 +6,19 @@ This is the Windows client of the Syncsys project. You can find its packing scri
 
 Now, the whole software is made in Python, **without any usage of third party library**. We are now considering to rebuild it by other programming languages, the first option for us is Go.
 
-To get a basic overview of the features, please go [Overview](#Overview).
+To get a basic overview of the features, please go [Overview](#overview).
 
-To get to know the usage of this software, please go [How to use](#How to use).
+To get to know the usage of this software, please go [How to use](#use).
 
-To get to know the detailed information of how it works, please go [How it works](#How it works).
+To get to know the detailed information of how it works, please go [How it works](#works).
 
 Now, the software is still being developed, and does not have many features. For the developing scheme and work progress, please see [TODO](#TODO).
 
-The software works by responding to API requests that the server sent. For the whole API list, please see [API List](#API List).
+The software works by responding to API requests that the server sent. For the whole API list, please see [API List](#API).
 
-This project is developed by two senior high school students, with the great help and support from their computer science teacher. For more information, please see [Authors, License, Acknowledgements](#Authors, License, Acknowledgements).
+This project is developed by two senior high school students, with the great help and support from their computer science teacher. For more information, please see [Authors, License, Acknowledgements](#info).
 
-## Overview
+## Overview <a id="overview"></a>
 
 ### Basic functions
 
@@ -34,7 +34,7 @@ This project is developed by two senior high school students, with the great hel
 - Remote control (VNC)
 - Screen monitoring
 
-## How to use
+## How to use <a id="use"></a>
 
 ### Installation
 
@@ -74,7 +74,7 @@ cd Sysync-WinClient
 
 Because no third part library is used in this repository, so you do not need to install any dependence. Now the development environment has been set, for more information about developing, please see *DevDoc*.
 
-## How it works
+## How it works <a id="works"></a>
 
 When installing the software, the installer will regist the software to be a Windows Service, so it will keep running in the background and has a very high permission, thus enable it to modify the system settings.
 
@@ -82,12 +82,12 @@ While running, the software listens to messages from the server, and respond to 
 
 This is just an introduction, *DevDoc* provides more technological information.
 
-## TODO
+## TODO <a id="TODO"></a>
 
 - [ ] fully support all API features
 - [ ] rebuild by other programming languages
 
-## API List
+## API List <a id="API"></a>
 
 ### *run_command*
 
@@ -129,5 +129,5 @@ This is just an introduction, *DevDoc* provides more technological information.
 - args: *string* *server_ip* The IP address of the server to be set in the configuration file; *int* *server_port*: The port of the server to be set in the configuration file.
 - description: Updates the server's IP address and port in the client configuration file (SETTINGS_FILE).
 
-## Authors, License, Acknowledgements
+## Authors, License, Acknowledgements <a id="info"></a>
 
