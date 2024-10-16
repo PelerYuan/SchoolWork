@@ -54,7 +54,7 @@ The screen shot of the service manager, showing that the service has been starte
 
 ***Before install the software again, uninstalling is always necessary***
 
-The software provides an uninstaller. If you have installed the software properly, you can find the uninstaller in `C:\SysyncWin`.
+The software provides an uninstaller. If you have installed the software properly, you can find the uninstaller at `C:\SysyncWin\unins000.exe`.
 
 Run the uninstaller with administrative permission, the files and service will be removed.
 
