@@ -6,17 +6,17 @@ This is the Windows client of the Syncsys project. You can find its packing scri
 
 Now, the whole software is made in Python, **without any usage of third party library**. We are now considering to rebuild it by other programming languages, the first option for us is Go.
 
-To get a basic overview of the features, please go *Overview*.
+To get a basic overview of the features, please go [Overview](#Overview).
 
-To get to know the usage of this software, please go *How to use*.
+To get to know the usage of this software, please go [How to use](#How to use).
 
-To get to know the detailed information of how it works, please go *How it works*.
+To get to know the detailed information of how it works, please go [How it works](#How it works).
 
-Now, the software is still being developed, and does not have many features. For the developing scheme and work progress, please see *TODO*.
+Now, the software is still being developed, and does not have many features. For the developing scheme and work progress, please see [TODO](#TODO).
 
-The software works by responding to API requests that the server sent. For the whole API list, please see *API List*.
+The software works by responding to API requests that the server sent. For the whole API list, please see [API List](#API List).
 
-This project is developed by two senior high school students, with the great help and support from their computer science teacher. For more information, please see *Authors, License, Acknowledgements*.
+This project is developed by two senior high school students, with the great help and support from their computer science teacher. For more information, please see [Authors, License, Acknowledgements](#Authors, License, Acknowledgements).
 
 ## Overview
 
